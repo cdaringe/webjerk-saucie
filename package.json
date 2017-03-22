@@ -1,0 +1,16 @@
+{
+  "name": "webjerk-saucie",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "*",
+    "saucie": "^3.1.0"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "test": "node test/"
+  }
+}
