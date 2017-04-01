@@ -3,7 +3,7 @@
 var saucie = require('saucie')
 var pidFile = 'sc_client.pid'
 
-module.exports = function (webjerkconfig) {
+module.exports = function registerWebjerkSaucie (webjerkconfig) {
   return {
     name: 'webjerk-saucie',
     pre (pluginConfig, webjerkconfig) {
